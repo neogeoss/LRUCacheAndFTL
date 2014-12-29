@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F02F752D1A412F9900625329 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F02F752C1A412F9900625329 /* main.c */; };
+		F02F75351A41300800625329 /* ftl.c in Sources */ = {isa = PBXBuildFile; fileRef = F02F75331A41300800625329 /* ftl.c */; };
+		F02F75381A41305300625329 /* flash.c in Sources */ = {isa = PBXBuildFile; fileRef = F02F75361A41305300625329 /* flash.c */; };
+		F02F753C1A415A6000625329 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = F02F753A1A415A6000625329 /* LinkedList.c */; };
+		F02F75401A415B5D00625329 /* HashChaning.c in Sources */ = {isa = PBXBuildFile; fileRef = F02F753F1A415B5D00625329 /* HashChaning.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,16 @@
 /* Begin PBXFileReference section */
 		F02F75291A412F9900625329 /* FTLByChan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FTLByChan; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02F752C1A412F9900625329 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F02F75331A41300800625329 /* ftl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftl.c; sourceTree = "<group>"; };
+		F02F75341A41300800625329 /* ftl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftl.h; sourceTree = "<group>"; };
+		F02F75361A41305300625329 /* flash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = flash.c; sourceTree = "<group>"; };
+		F02F75371A41305300625329 /* flash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flash.h; sourceTree = "<group>"; };
+		F02F75391A4130A300625329 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		F02F753A1A415A6000625329 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		F02F753B1A415A6000625329 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		F02F753D1A415AF500625329 /* DataTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTypes.h; sourceTree = "<group>"; };
+		F02F753E1A415B4400625329 /* HashChaining.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashChaining.h; sourceTree = "<group>"; };
+		F02F753F1A415B5D00625329 /* HashChaning.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HashChaning.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,16 @@
 			isa = PBXGroup;
 			children = (
 				F02F752C1A412F9900625329 /* main.c */,
+				F02F75331A41300800625329 /* ftl.c */,
+				F02F75341A41300800625329 /* ftl.h */,
+				F02F75361A41305300625329 /* flash.c */,
+				F02F75371A41305300625329 /* flash.h */,
+				F02F75391A4130A300625329 /* config.h */,
+				F02F753A1A415A6000625329 /* LinkedList.c */,
+				F02F753D1A415AF500625329 /* DataTypes.h */,
+				F02F753B1A415A6000625329 /* LinkedList.h */,
+				F02F753E1A415B4400625329 /* HashChaining.h */,
+				F02F753F1A415B5D00625329 /* HashChaning.c */,
 			);
 			path = FTLByChan;
 			sourceTree = "<group>";
@@ -118,6 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02F753C1A415A6000625329 /* LinkedList.c in Sources */,
+				F02F75401A415B5D00625329 /* HashChaning.c in Sources */,
+				F02F75381A41305300625329 /* flash.c in Sources */,
+				F02F75351A41300800625329 /* ftl.c in Sources */,
 				F02F752D1A412F9900625329 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +260,7 @@
 				F02F75321A412F9900625329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
